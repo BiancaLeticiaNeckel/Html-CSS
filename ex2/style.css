@@ -1,0 +1,17 @@
+p{
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;    
+    text-align: center;
+}
+
+img {
+    border-radius: 20px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#insta {
+    width: 80px;
+    
+}

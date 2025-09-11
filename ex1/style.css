@@ -1,0 +1,16 @@
+h1 {
+    color:crimson;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-image: url('cordilheira.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

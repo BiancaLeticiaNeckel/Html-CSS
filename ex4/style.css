@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans';
+    background-color: #fdfdfd;
+    color: #333;    
+}
+
+ul li {
+    list-style: square;
+    margin: 15px;
+}
+
+h1{
+    color: #53024f;
+}
+
+h2{
+    color: #b32cac;
+}
