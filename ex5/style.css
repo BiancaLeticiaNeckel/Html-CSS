@@ -1,13 +1,23 @@
 body {
-    font-family: 'Open Sans';
-    background-color: #fdfdfd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #9ebfeb;
     color: #333;    
 }
 
 
 h1{
     color: #53024f;
+    text-align: center;
 }
+
+
+#container {
+    background-color: #5b5df3;
+    margin: auto;
+    width: 450px;
+    padding: 10px;
+}
+
 
 input {
     width: 400px;
@@ -25,3 +35,5 @@ textarea {
     margin: 10px;
     box-shadow: 0px 5px 14px #998c8c;
 }
+
+

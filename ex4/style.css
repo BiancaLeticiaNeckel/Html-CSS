@@ -1,18 +1,25 @@
 body {
     font-family: 'Open Sans';
-    background-color: #fdfdfd;
+    text-align: justify;
+    background-color: #c1d8e6;
     color: #333;    
 }
 
 ul li {
     list-style: square;
     margin: 15px;
+    padding: 20px;
+    border: 2px; 
+    border-color: rgb(81, 37, 184);
+    border-style: dotted;
+    border-radius: 15px;
 }
 
 h1{
-    color: #53024f;
+    text-align: center;
+    color: #130112;
 }
 
 h2{
-    color: #b32cac;
+    color: #443044;
 }

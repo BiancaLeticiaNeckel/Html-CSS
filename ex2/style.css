@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(9, 247, 167);
+}
 p{
     color: purple;
     font-family: 'Courier New', Courier, monospace;    
@@ -11,7 +14,22 @@ img {
     margin: 0 auto;
 }
 
-#insta {
-    width: 80px;
-    
+.img-redesocial {
+    display: flex;
+    justify-content: center;
+    gap: 15px;   
 }
+
+.img-redesocial img {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.img-redesocial img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
