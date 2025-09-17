@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    background-color: #d19e9e;
+    margin: 0;
+    padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .testemunhos {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .depoimento {
+      background-color: #f0e6e6;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .depoimento img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    blockquote {
+      margin: 0;
+      font-style: italic; 
+    }
+
+    .nome {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #555;
+    }

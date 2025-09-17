@@ -1,0 +1,49 @@
+ body {
+      font-family: Arial;
+      background-color: #f0f0f0;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .lista {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .tarefa {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .tarefa label {
+      flex-grow: 1;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    /* Aplica o risco na tarefa quando o checkbox está marcado */
+    input[type="checkbox"]:checked + label {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    button {
+      margin-top: 20px;
+      text-align: center;
+      padding: 8px 12px;
+      margin: 5px;
+      background-color: #ccc;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }

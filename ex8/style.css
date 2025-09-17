@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.descricao {
+    color: #555;
+    margin: 15px 0;
+}
+
+.preco {
+    font-size: 20px;
+    color: #2e7d32;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.botao-compra {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    width: 100%; 
+}
+
+.botao-compra:hover {
+    background-color: #45a049;
+}

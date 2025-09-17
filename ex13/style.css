@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #cc0000;
+    margin-bottom: 40px;
+}
+
+.promocoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.oferta {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #0000001a;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+}
+
+.oferta img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    height: 180px;
+}
+
+.oferta h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.oferta p {
+    margin: 8px 0;
+}
+
+.preco-antigo {
+    color: #888;
+    margin-right: 10px;
+}
+
+.preco-novo {
+    color: #d60000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d60000;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
